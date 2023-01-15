@@ -1,7 +1,7 @@
 const { BeanModel } = require("redbean-node/dist/bean-model");
 const { R } = require("redbean-node");
 const cheerio = require("cheerio");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const jsesc = require("jsesc");
 const analytics = require("../analytics/analytics");
 const { marked } = require("marked");
@@ -80,7 +80,7 @@ class StatusPage extends BeanModel {
         const { incidents, heartbeats, statusDescription } = await StatusPage.getRSSPageData(statusPage);
 
         // Use custom RSS title if set, otherwise fall back to status page title
-        let feedTitle = "Uptime Kuma RSS Feed";
+        let feedTitle = "NetGuardian RSS Feed";
         if (statusPage.rss_title) {
             feedTitle = statusPage.rss_title;
         } else if (statusPage.title) {
@@ -192,7 +192,7 @@ class StatusPage extends BeanModel {
         head.append(ogType);
 
         // Preload data
-        // Add jsesc, fix https://github.com/louislam/uptime-kuma/issues/2186
+        // Add jsesc, fix https://github.com/louislam/netguardian/issues/2186
         const escapedJSONObject = jsesc(await StatusPage.getStatusPageData(statusPage), {
             isScriptContext: true,
         });
@@ -588,3 +588,4 @@ class StatusPage extends BeanModel {
 }
 
 module.exports = StatusPage;
+

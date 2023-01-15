@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD expiry_notification BOOLEAN default 1;
 
 COMMIT;
+

@@ -9,3 +9,4 @@ exports.down = async function (knex) {
         table.dropColumn("snmp_v3_username");
     });
 };
+

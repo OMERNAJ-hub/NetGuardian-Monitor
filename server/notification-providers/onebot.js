@@ -47,3 +47,4 @@ class OneBot extends NotificationProvider {
 }
 
 module.exports = OneBot;
+

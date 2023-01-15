@@ -167,7 +167,7 @@ class MqttMonitorType extends MonitorType {
             let client = mqtt.connect(mqttUrl, {
                 username,
                 password,
-                clientId: "uptime-kuma_" + Math.random().toString(16).substr(2, 8),
+                clientId: "netguardian_" + Math.random().toString(16).substr(2, 8),
             });
 
             client.on("connect", () => {
@@ -202,3 +202,4 @@ class MqttMonitorType extends MonitorType {
 module.exports = {
     MqttMonitorType,
 };
+

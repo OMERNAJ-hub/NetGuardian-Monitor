@@ -60,3 +60,4 @@ export async function takeSqliteSnapshot(page = null) {
 export async function restoreSqliteSnapshot() {
     return fetch(`${serverUrl}/_e2e/restore-sqlite-snapshot`);
 }
+

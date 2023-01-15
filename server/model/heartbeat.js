@@ -82,3 +82,4 @@ class Heartbeat extends BeanModel {
 }
 
 module.exports = Heartbeat;
+

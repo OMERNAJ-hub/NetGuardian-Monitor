@@ -46,3 +46,4 @@ class SMSC extends NotificationProvider {
 }
 
 module.exports = SMSC;
+

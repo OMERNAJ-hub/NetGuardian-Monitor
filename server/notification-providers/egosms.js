@@ -32,3 +32,4 @@ class EgoSMS extends NotificationProvider {
 }
 
 module.exports = EgoSMS;
+

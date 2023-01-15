@@ -26,3 +26,4 @@ function getGoogleAnalyticsScript(tagId) {
 module.exports = {
     getGoogleAnalyticsScript,
 };
+

@@ -23,3 +23,4 @@ class Proxy extends BeanModel {
 }
 
 module.exports = Proxy;
+

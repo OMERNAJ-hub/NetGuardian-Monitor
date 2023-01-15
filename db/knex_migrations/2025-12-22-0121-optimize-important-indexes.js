@@ -35,3 +35,4 @@ exports.down = async function (knex) {
     }
     // For MariaDB/MySQL: No changes
 };
+

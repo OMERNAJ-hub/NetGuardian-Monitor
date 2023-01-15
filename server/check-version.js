@@ -65,3 +65,4 @@ exports.enableCheckUpdate = async (value) => {
 };
 
 exports.socket = null;
+

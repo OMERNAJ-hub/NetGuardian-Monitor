@@ -54,3 +54,4 @@ class ServerChan extends NotificationProvider {
 }
 
 module.exports = ServerChan;
+

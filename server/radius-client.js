@@ -5,7 +5,7 @@
  * Due to lack of maintenance in node-radius-client this was forked
  *
  * Implements RADIUS Access-Request functionality compatible with the original
- * node-radius-client API used in Uptime Kuma.
+ * node-radius-client API used in NetGuardian.
  */
 
 const dgram = require("dgram");
@@ -175,3 +175,4 @@ class RadiusClient {
 }
 
 module.exports = RadiusClient;
+

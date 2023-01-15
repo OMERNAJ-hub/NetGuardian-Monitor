@@ -6,7 +6,7 @@ const ImageDataURI = require("../image-data-uri");
 const Database = require("../database");
 const apicache = require("../modules/apicache");
 const StatusPage = require("../model/status_page");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const { Settings } = require("../settings");
 
 /**
@@ -545,3 +545,4 @@ function checkSlug(slug) {
         throw new Error("Invalid Slug");
     }
 }
+

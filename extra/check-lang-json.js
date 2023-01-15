@@ -25,3 +25,4 @@ for (let jsonFile of jsonFileList) {
 }
 
 console.log("All lang json files are formatted correctly.");
+

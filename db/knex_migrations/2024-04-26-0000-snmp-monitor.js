@@ -13,3 +13,4 @@ exports.down = function (knex) {
         table.dropColumn("json_path_operator");
     });
 };
+

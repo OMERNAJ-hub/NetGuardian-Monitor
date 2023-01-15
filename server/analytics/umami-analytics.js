@@ -34,3 +34,4 @@ function getUmamiAnalyticsScript(scriptUrl, websiteId) {
 module.exports = {
     getUmamiAnalyticsScript,
 };
+

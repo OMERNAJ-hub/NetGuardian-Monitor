@@ -39,3 +39,4 @@ class SMSPlanet extends NotificationProvider {
 }
 
 module.exports = SMSPlanet;
+

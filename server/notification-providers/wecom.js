@@ -70,3 +70,4 @@ class WeCom extends NotificationProvider {
 }
 
 module.exports = WeCom;
+

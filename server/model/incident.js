@@ -34,3 +34,4 @@ class Incident extends BeanModel {
 }
 
 module.exports = Incident;
+

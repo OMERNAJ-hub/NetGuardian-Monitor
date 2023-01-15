@@ -31,3 +31,4 @@ class SMSManager extends NotificationProvider {
 }
 
 module.exports = SMSManager;
+

@@ -153,3 +153,4 @@ class OracleDbMonitorType extends MonitorType {
 module.exports = {
     OracleDbMonitorType,
 };
+

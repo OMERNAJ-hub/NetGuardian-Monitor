@@ -25,3 +25,4 @@ class TestDB {
 }
 
 module.exports = TestDB;
+

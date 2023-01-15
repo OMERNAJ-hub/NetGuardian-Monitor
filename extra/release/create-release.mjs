@@ -17,3 +17,4 @@ if (!previousVersion) {
 const isBeta = !!process.env.RELEASE_BETA_VERSION;
 const changelog = await generateChangelogAI(previousVersion);
 await createRelease(version, changelog, isBeta, "");
+

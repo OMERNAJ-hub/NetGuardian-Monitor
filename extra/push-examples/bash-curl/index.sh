@@ -8,3 +8,4 @@ while true; do
     echo "Pushed!"
     sleep $INTERVAL
 done
+

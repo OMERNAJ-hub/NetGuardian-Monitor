@@ -8,3 +8,4 @@ ALTER TABLE user
     ADD twofa_status BOOLEAN default 0 NOT NULL;
 
 COMMIT;
+

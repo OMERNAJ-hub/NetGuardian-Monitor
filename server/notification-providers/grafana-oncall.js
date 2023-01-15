@@ -49,3 +49,4 @@ class GrafanaOncall extends NotificationProvider {
 }
 
 module.exports = GrafanaOncall;
+

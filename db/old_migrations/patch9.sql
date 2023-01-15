@@ -5,3 +5,4 @@ ALTER TABLE notification
     ADD is_default BOOLEAN default 0 NOT NULL;
 
 COMMIT;
+

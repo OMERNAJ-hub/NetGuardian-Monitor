@@ -50,3 +50,4 @@ class User extends BeanModel {
 }
 
 module.exports = User;
+

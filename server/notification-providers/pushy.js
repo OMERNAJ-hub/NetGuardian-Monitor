@@ -17,7 +17,7 @@ class Pushy extends NotificationProvider {
                 {
                     to: notification.pushyToken,
                     data: {
-                        message: "Uptime-Kuma",
+                        message: "netguardian",
                     },
                     notification: {
                         body: msg,
@@ -35,3 +35,4 @@ class Pushy extends NotificationProvider {
 }
 
 module.exports = Pushy;
+

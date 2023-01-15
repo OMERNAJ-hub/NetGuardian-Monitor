@@ -138,3 +138,4 @@ describe("Steam Monitor", () => {
         assert.strictEqual(lookupCalled, false);
     });
 });
+

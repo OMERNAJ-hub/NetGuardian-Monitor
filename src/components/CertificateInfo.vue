@@ -46,3 +46,4 @@ export default {
     background-color: $danger;
 }
 </style>
+

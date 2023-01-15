@@ -161,3 +161,4 @@ class MysqlMonitorType extends MonitorType {
 module.exports = {
     MysqlMonitorType,
 };
+

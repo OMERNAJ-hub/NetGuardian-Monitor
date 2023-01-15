@@ -29,3 +29,4 @@ class FreeMobile extends NotificationProvider {
 }
 
 module.exports = FreeMobile;
+

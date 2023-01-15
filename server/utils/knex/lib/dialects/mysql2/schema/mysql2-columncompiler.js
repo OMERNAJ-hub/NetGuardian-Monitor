@@ -20,3 +20,4 @@ class KumaColumnCompiler extends ColumnCompilerMySQL {
 }
 
 module.exports = KumaColumnCompiler;
+

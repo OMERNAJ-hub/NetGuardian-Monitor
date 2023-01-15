@@ -86,3 +86,4 @@ class SNMPMonitorType extends MonitorType {
 module.exports = {
     SNMPMonitorType,
 };
+

@@ -16,3 +16,4 @@ ALTER TABLE monitor
 	ADD docker_container VARCHAR(255);
 
 COMMIT;
+

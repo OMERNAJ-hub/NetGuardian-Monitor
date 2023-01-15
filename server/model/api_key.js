@@ -74,3 +74,4 @@ class APIKey extends BeanModel {
 }
 
 module.exports = APIKey;
+

@@ -20,7 +20,7 @@
             type="text"
             class="form-control"
             autocomplete="false"
-            placeholder="Uptime Kuma"
+            placeholder="NetGuardian"
         />
     </div>
 
@@ -49,3 +49,4 @@ export default {
     },
 };
 </script>
+

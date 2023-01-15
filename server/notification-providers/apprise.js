@@ -34,3 +34,4 @@ class Apprise extends NotificationProvider {
 }
 
 module.exports = Apprise;
+

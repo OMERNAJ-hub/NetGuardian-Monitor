@@ -1,8 +1,9 @@
 module.exports = {
     apps: [
         {
-            name: "uptime-kuma",
+            name: "netguardian",
             script: "./server/server.js",
         },
     ],
 };
+

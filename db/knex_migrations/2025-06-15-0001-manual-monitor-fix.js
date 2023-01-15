@@ -10,3 +10,4 @@ exports.down = function (knex) {
         table.string("manual_status").alter();
     });
 };
+

@@ -17,7 +17,7 @@ const jsonata = require("jsonata");
 exports.isDev = process.env.NODE_ENV === "development";
 exports.isNode = typeof process !== "undefined" && ((_a = process === null || process === void 0 ? void 0 : process.versions) === null || _a === void 0 ? void 0 : _a.node);
 const dayjs = exports.isNode ? require("dayjs") : dayjs_1.default;
-exports.appName = "Uptime Kuma";
+exports.appName = "NetGuardian";
 exports.DOWN = 0;
 exports.UP = 1;
 exports.PENDING = 2;
@@ -491,3 +491,4 @@ exports.TYPES_WITH_DOMAIN_EXPIRY_SUPPORT_VIA_FIELD = {
     "tailscale-ping": "hostname",
     "sip-options": "hostname",
 };
+

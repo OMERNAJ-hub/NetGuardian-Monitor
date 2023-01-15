@@ -47,3 +47,4 @@ describe("Certificate Hostname Validation", () => {
         assert.strictEqual(result, false);
     });
 });
+

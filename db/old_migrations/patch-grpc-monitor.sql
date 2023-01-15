@@ -23,3 +23,4 @@ ALTER TABLE monitor
     ADD grpc_enable_tls BOOLEAN default 0 not null;
 
 COMMIT;
+

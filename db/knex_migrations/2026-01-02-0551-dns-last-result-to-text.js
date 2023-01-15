@@ -10,3 +10,4 @@ exports.down = function (knex) {
         table.string("dns_last_result", 255).alter();
     });
 };
+

@@ -28,3 +28,4 @@ CREATE INDEX [fk]
 
 
 COMMIT;
+

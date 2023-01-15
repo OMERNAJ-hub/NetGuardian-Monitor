@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD packet_size INTEGER DEFAULT 56 NOT NULL;
 
 COMMIT;
+

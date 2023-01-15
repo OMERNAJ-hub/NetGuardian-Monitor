@@ -47,3 +47,4 @@ class Group extends BeanModel {
 }
 
 module.exports = Group;
+

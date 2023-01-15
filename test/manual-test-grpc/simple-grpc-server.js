@@ -20,3 +20,4 @@ server.bindAsync("0.0.0.0:50051", grpc.ServerCredentials.createInsecure(), () =>
     console.log("gRPC server running on :50051");
     server.start();
 });
+

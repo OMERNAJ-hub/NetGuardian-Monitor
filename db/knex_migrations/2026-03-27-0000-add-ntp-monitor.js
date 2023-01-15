@@ -13,3 +13,4 @@ exports.down = function (knex) {
         table.dropColumn("ntp_root_dispersion_threshold");
     });
 };
+

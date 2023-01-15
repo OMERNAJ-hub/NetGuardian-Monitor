@@ -85,3 +85,4 @@ function tagExists(version) {
 
     return res.stdout.toString().trim() === version;
 }
+

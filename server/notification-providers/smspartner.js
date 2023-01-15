@@ -45,3 +45,4 @@ class SMSPartner extends NotificationProvider {
 }
 
 module.exports = SMSPartner;
+

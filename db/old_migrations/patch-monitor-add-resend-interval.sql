@@ -8,3 +8,4 @@ ALTER TABLE heartbeat
     ADD down_count INTEGER default 0 not null;
 
 COMMIT;
+

@@ -21,7 +21,7 @@ async function* walk(dir) {
     }
 }
 
-const UPSTREAM_EN_JSON = "https://raw.githubusercontent.com/louislam/uptime-kuma/refs/heads/master/src/lang/en.json";
+const UPSTREAM_EN_JSON = "https://raw.githubusercontent.com/louislam/netguardian/refs/heads/master/src/lang/en.json";
 
 /**
  * Extract `{placeholders}` from a translation string.
@@ -173,3 +173,4 @@ describe("Check Translations", () => {
         });
     });
 });
+

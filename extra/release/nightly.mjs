@@ -14,3 +14,4 @@ buildImage(repoNames, [ "nightly2-rootless" ], "nightly-rootless");
 
 // Build full image
 buildImage(repoNames, [ "nightly2" ], "nightly");
+

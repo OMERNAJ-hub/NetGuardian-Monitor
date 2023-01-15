@@ -16,3 +16,4 @@ WHERE
 PRAGMA writable_schema = RESET;
 
 COMMIT;
+

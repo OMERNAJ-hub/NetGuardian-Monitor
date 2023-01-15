@@ -15,3 +15,4 @@ class Tag extends BeanModel {
 }
 
 module.exports = Tag;
+

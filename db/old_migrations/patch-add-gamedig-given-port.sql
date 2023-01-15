@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD gamedig_given_port_only BOOLEAN default 1 not null;
 
 COMMIT;
+

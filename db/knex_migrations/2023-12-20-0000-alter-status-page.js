@@ -9,3 +9,4 @@ exports.down = function (knex) {
         table.dropColumn("auto_refresh_interval");
     });
 };
+

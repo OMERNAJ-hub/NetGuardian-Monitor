@@ -51,3 +51,4 @@ console.log(`Squash merging PR #${prNumber}...`);
 execSync(`gh pr merge ${prNumber} --squash --delete-branch --subject "Update to ${version}" --admin`);
 
 await createRelease(version, changelog, isBeta, distTarGz);
+

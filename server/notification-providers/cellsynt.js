@@ -38,3 +38,4 @@ class Cellsynt extends NotificationProvider {
 }
 
 module.exports = Cellsynt;
+

@@ -15,10 +15,10 @@ class Webpush extends NotificationProvider {
             const publicVapidKey = await setting("webpushPublicVapidKey");
             const privateVapidKey = await setting("webpushPrivateVapidKey");
 
-            webpush.setVapidDetails("https://github.com/louislam/uptime-kuma", publicVapidKey, privateVapidKey);
+            webpush.setVapidDetails("https://github.com/louislam/netguardian", publicVapidKey, privateVapidKey);
 
             const data = JSON.stringify({
-                title: "Uptime Kuma",
+                title: "NetGuardian",
                 body: msg,
             });
 
@@ -32,3 +32,4 @@ class Webpush extends NotificationProvider {
 }
 
 module.exports = Webpush;
+

@@ -9,3 +9,4 @@ exports.down = function (knex) {
         table.string("oauth_audience").alter();
     });
 };
+

@@ -74,3 +74,4 @@ class Line extends NotificationProvider {
 }
 
 module.exports = Line;
+

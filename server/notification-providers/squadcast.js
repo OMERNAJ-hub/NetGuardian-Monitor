@@ -18,7 +18,7 @@ class Squadcast extends NotificationProvider {
                 description: "",
                 tags: {},
                 heartbeat: heartbeatJSON,
-                source: "uptime-kuma",
+                source: "netguardian",
             };
 
             if (heartbeatJSON !== null) {
@@ -55,3 +55,4 @@ class Squadcast extends NotificationProvider {
 }
 
 module.exports = Squadcast;
+

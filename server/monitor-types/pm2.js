@@ -34,3 +34,4 @@ class PM2MonitorType extends MonitorType {
 module.exports = {
     PM2MonitorType,
 };
+

@@ -76,3 +76,4 @@ class Octopush extends NotificationProvider {
 }
 
 module.exports = Octopush;
+

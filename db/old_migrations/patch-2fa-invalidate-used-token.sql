@@ -5,3 +5,4 @@ ALTER TABLE user
     ADD twofa_last_token VARCHAR(6);
 
 COMMIT;
+

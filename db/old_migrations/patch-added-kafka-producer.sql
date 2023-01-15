@@ -20,3 +20,4 @@ ALTER TABLE monitor
 	ADD kafka_producer_message TEXT;
 
 COMMIT;
+

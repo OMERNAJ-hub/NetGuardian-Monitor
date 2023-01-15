@@ -51,3 +51,4 @@ class HeiiOnCall extends NotificationProvider {
 }
 
 module.exports = HeiiOnCall;
+

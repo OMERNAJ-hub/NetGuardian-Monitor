@@ -50,3 +50,4 @@ describe("Expression Evaluator", () => {
         assert.strictEqual(false, evaluateExpressionGroup(group, { record: "mx1.example.net" }));
     });
 });
+

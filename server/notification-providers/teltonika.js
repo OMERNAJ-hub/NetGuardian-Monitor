@@ -93,3 +93,4 @@ class Teltonika extends NotificationProvider {
 }
 
 module.exports = Teltonika;
+

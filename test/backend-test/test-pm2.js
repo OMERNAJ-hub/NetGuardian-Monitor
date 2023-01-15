@@ -121,3 +121,4 @@ describe("PM2MonitorType", () => {
         assert.strictEqual(heartbeat.status, DOWN);
     });
 });
+

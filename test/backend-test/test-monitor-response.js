@@ -34,3 +34,4 @@ describe("Monitor response saving", () => {
         assert.strictEqual(await Heartbeat.decodeResponseValue(bean.response), JSON.stringify({ ok: true }));
     });
 });
+

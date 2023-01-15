@@ -46,3 +46,4 @@ class Evolution extends NotificationProvider {
 }
 
 module.exports = Evolution;
+

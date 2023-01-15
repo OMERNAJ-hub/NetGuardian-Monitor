@@ -56,3 +56,4 @@ const prompt = (query) => new Promise((resolve) => rl.question(query, resolve));
 
 // When done reading prompt, exit program
 rl.on("close", () => process.exit(0));
+

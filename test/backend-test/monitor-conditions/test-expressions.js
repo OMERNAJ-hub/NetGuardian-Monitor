@@ -53,3 +53,4 @@ test("Test ConditionExpressionGroup.fromMonitor", async (t) => {
     assert.strictEqual(true, root.children[1].children[1].children[0] instanceof ConditionExpression);
     assert.strictEqual(true, root.children[1].children[1].children[0].value === "car");
 });
+

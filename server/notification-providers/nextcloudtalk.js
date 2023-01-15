@@ -58,3 +58,4 @@ class NextcloudTalk extends NotificationProvider {
 }
 
 module.exports = NextcloudTalk;
+

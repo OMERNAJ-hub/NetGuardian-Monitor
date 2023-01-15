@@ -11,7 +11,7 @@ permissions: {}
 jobs:
   build-docker-pr-test:
     # Only run on the original repository, not on forks
-    if: github.repository == 'louislam/uptime-kuma'
+    if: github.repository == 'louislam/netguardian'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     permissions:
@@ -40,3 +40,4 @@ jobs:
 
       - name: Build and push pr-test2
         run: node --run build-docker-pr-test
+

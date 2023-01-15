@@ -8,3 +8,4 @@ UPDATE notification SET config = config_old;
 ALTER TABLE notification DROP COLUMN config_old;
 
 COMMIT;
+

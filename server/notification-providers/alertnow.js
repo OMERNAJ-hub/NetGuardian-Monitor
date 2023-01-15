@@ -52,3 +52,4 @@ class AlertNow extends NotificationProvider {
 }
 
 module.exports = AlertNow;
+

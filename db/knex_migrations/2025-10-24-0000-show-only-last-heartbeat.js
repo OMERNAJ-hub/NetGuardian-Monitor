@@ -11,3 +11,4 @@ exports.down = function (knex) {
         table.dropColumn("show_only_last_heartbeat");
     });
 };
+

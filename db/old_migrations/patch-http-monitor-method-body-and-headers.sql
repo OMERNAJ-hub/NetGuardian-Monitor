@@ -11,3 +11,4 @@ ALTER TABLE monitor
     ADD headers TEXT default null;
 
 COMMIT;
+

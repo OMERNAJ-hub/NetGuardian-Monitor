@@ -142,3 +142,4 @@ class SMSEagle extends NotificationProvider {
 }
 
 module.exports = SMSEagle;
+

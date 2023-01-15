@@ -81,3 +81,4 @@ CREATE INDEX [maintenance_id_index2] ON [monitor_maintenance]([maintenance_id]);
 CREATE INDEX [monitor_id_index] ON [monitor_maintenance]([monitor_id]);
 
 COMMIT;
+

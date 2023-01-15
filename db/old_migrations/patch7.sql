@@ -8,3 +8,4 @@ ALTER TABLE monitor
 	ADD dns_resolve_server VARCHAR(255);
 
 COMMIT;
+

@@ -49,7 +49,7 @@ const { Proxy } = require("../proxy");
 const { demoMode } = require("../config");
 const version = require("../../package.json").version;
 const apicache = require("../modules/apicache");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const { DockerHost } = require("../docker");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
@@ -461,7 +461,7 @@ class Monitor extends BeanModel {
             }
 
             // Runtime patch timeout if it is 0
-            // See https://github.com/louislam/uptime-kuma/pull/3961#issuecomment-1804149144
+            // See https://github.com/louislam/netguardian/pull/3961#issuecomment-1804149144
             if (!this.timeout || this.timeout <= 0) {
                 this.timeout = this.interval * 1000 * 0.8;
             }
@@ -890,7 +890,7 @@ class Monitor extends BeanModel {
                         {
                             allowAutoTopicCreation: this.kafkaProducerAllowAutoTopicCreation,
                             ssl: this.kafkaProducerSsl,
-                            clientId: `Uptime-Kuma/${version}`,
+                            clientId: `netguardian/${version}`,
                             interval: this.interval,
                             connectionTimeout: this.timeout,
                         },
@@ -1021,7 +1021,7 @@ class Monitor extends BeanModel {
                     ) {
                         log.warn(
                             "domain_expiry",
-                            `Domain expiry unsupported for '.${error.meta.publicSuffix}' because it lacks an RDAP endpoint in the IANA database. This isn’t an Uptime Kuma bug, a limitation of your registry. If an RDAP server exists, ask your registrar politely to submit it to IANA so expiry checks can work.`
+                            `Domain expiry unsupported for '.${error.meta.publicSuffix}' because it lacks an RDAP endpoint in the IANA database. This isn’t an NetGuardian bug, a limitation of your registry. If an RDAP server exists, ask your registrar politely to submit it to IANA so expiry checks can work.`
                         );
                     }
                 }
@@ -1094,7 +1094,7 @@ class Monitor extends BeanModel {
             } catch (e) {
                 console.trace(e);
                 UptimeKumaServer.errorLog(e, false);
-                log.error("monitor", "Please report to https://github.com/louislam/uptime-kuma/issues");
+                log.error("monitor", "Please report to https://github.com/louislam/netguardian/issues");
 
                 if (!this.isStop) {
                     log.info("monitor", "Try to restart the monitor");
@@ -2081,3 +2081,4 @@ class Monitor extends BeanModel {
 }
 
 module.exports = Monitor;
+

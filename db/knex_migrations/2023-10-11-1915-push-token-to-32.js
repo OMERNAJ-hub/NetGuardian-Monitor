@@ -10,3 +10,4 @@ exports.down = function (knex) {
         table.string("push_token", 20).alter();
     });
 };
+

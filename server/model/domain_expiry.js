@@ -366,3 +366,4 @@ class DomainExpiry extends BeanModel {
 }
 
 module.exports = DomainExpiry;
+

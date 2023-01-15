@@ -9,3 +9,4 @@ exports.down = function (knex) {
         table.dropColumn("rss_title");
     });
 };
+

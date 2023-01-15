@@ -39,3 +39,4 @@ class GoAlert extends NotificationProvider {
 }
 
 module.exports = GoAlert;
+

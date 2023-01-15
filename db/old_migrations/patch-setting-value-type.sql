@@ -19,3 +19,4 @@ drop table setting;
 alter table setting_dg_tmp rename to setting;
 
 COMMIT;
+

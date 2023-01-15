@@ -68,3 +68,4 @@ Time (${heartbeatJSON["timezone"]}): ${heartbeatJSON["localDateTime"]}`,
 }
 
 module.exports = OneChat;
+

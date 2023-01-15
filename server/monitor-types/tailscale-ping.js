@@ -75,3 +75,4 @@ class TailscalePing extends MonitorType {
 module.exports = {
     TailscalePing,
 };
+

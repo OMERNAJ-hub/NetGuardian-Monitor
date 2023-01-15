@@ -85,7 +85,7 @@ export default {
         matrixTemplatedTextareaPlaceholder() {
             return this.$t("Example:", [
                 `
-Uptime Kuma Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
+NetGuardian Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
 
 {{ msg }}
                 `,
@@ -94,3 +94,4 @@ Uptime Kuma Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
     },
 };
 </script>
+

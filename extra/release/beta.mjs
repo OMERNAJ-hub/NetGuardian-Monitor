@@ -61,14 +61,14 @@ if (!dryRun) {
         repoNames,
         ["beta-slim-rootless", ver(version, "slim-rootless")],
         "rootless",
-        "BASE_IMAGE=louislam/uptime-kuma:base2-slim"
+        "BASE_IMAGE=louislam/netguardian:base2-slim"
     );
 
     // Build full image (rootless)
     buildImage(repoNames, ["beta-rootless", ver(version, "rootless")], "rootless");
 
     // Build slim image
-    buildImage(repoNames, ["beta-slim", ver(version, "slim")], "release", "BASE_IMAGE=louislam/uptime-kuma:base2-slim");
+    buildImage(repoNames, ["beta-slim", ver(version, "slim")], "release", "BASE_IMAGE=louislam/netguardian:base2-slim");
 
     // Build full image
     buildImage(repoNames, ["beta", version], "release");
@@ -81,3 +81,4 @@ await createDistTarGz();
 
 // Auto-finish: generate changelog, squash merge PR (non-dry-run only), create draft release with dist.tar.gz
 await import("./finish.mjs");
+

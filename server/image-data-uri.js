@@ -76,3 +76,4 @@ let ImageDataURI = (() => {
 })();
 
 module.exports = ImageDataURI;
+

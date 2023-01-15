@@ -1,6 +1,6 @@
 let express = require("express");
 const apicache = require("../modules/apicache");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const StatusPage = require("../model/status_page");
 const { allowDevAllOrigin, sendHttpError } = require("../util-server");
 const { R } = require("redbean-node");
@@ -262,3 +262,4 @@ router.get("/api/status-page/:slug/badge", cache("5 minutes"), async (request, r
 });
 
 module.exports = router;
+

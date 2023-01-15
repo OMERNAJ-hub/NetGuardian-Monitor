@@ -71,3 +71,4 @@ class WxPusher extends NotificationProvider {
 }
 
 module.exports = WxPusher;
+

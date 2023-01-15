@@ -71,3 +71,4 @@ class Webhook extends NotificationProvider {
 }
 
 module.exports = Webhook;
+

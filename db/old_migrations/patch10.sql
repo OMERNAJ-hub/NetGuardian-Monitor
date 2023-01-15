@@ -17,3 +17,4 @@ CREATE TABLE monitor_tag (
 
 CREATE INDEX monitor_tag_monitor_id_index ON monitor_tag (monitor_id);
 CREATE INDEX monitor_tag_tag_id_index ON monitor_tag (tag_id);
+

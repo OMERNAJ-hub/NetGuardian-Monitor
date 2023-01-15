@@ -28,7 +28,7 @@ class ClickSendSMS extends NotificationProvider {
                     {
                         body: msg.replace(/[^\x00-\x7F]/g, ""),
                         to: notification.clicksendsmsToNumber,
-                        source: "uptime-kuma",
+                        source: "netguardian",
                         from: notification.clicksendsmsSenderName,
                     },
                 ],
@@ -48,3 +48,4 @@ class ClickSendSMS extends NotificationProvider {
 }
 
 module.exports = ClickSendSMS;
+

@@ -11,3 +11,4 @@ exports.down = function (knex) {
         table.dropColumn("mqtt_websocket_path");
     });
 };
+

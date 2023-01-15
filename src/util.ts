@@ -28,7 +28,7 @@ export const isNode = typeof process !== "undefined" && process?.versions?.node;
  */
 const dayjs = isNode ? require("dayjs") : dayjsFrontend;
 
-export const appName = "Uptime Kuma";
+export const appName = "NetGuardian";
 export const DOWN = 0;
 export const UP = 1;
 export const PENDING = 2;
@@ -202,7 +202,7 @@ export function ucfirst(str: string) {
 }
 
 /**
- * @deprecated Use log.debug (https://github.com/louislam/uptime-kuma/pull/910)
+ * @deprecated Use log.debug (https://github.com/louislam/netguardian/pull/910)
  * @param msg Message to write
  * @returns {void}
  */
@@ -794,3 +794,4 @@ export const TYPES_WITH_DOMAIN_EXPIRY_SUPPORT_VIA_FIELD = {
     "tailscale-ping": "hostname",
     "sip-options": "hostname",
 } as const;
+

@@ -77,3 +77,4 @@ class GroupMonitorType extends MonitorType {
 module.exports = {
     GroupMonitorType,
 };
+

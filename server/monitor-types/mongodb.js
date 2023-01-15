@@ -65,3 +65,4 @@ class MongodbMonitorType extends MonitorType {
 module.exports = {
     MongodbMonitorType,
 };
+

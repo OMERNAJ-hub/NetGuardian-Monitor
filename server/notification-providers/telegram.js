@@ -110,3 +110,4 @@ class Telegram extends NotificationProvider {
 }
 
 module.exports = Telegram;
+

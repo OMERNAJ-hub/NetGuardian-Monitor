@@ -32,3 +32,4 @@ class GtxMessaging extends NotificationProvider {
 }
 
 module.exports = GtxMessaging;
+

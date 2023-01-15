@@ -49,3 +49,4 @@ class WPush extends NotificationProvider {
 }
 
 module.exports = WPush;
+

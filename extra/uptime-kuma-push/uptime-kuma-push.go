@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "Usage: uptime-kuma-push <url> [<interval>]")
+		fmt.Fprintln(os.Stderr, "Usage: netguardian-push <url> [<interval>]")
 		os.Exit(1)
 	}
 
@@ -42,3 +42,4 @@ func main() {
 		time.Sleep(interval)
 	}
 }
+

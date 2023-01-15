@@ -5,3 +5,4 @@ UPDATE monitor SET timeout = (interval * 0.8)
 WHERE timeout IS NULL OR timeout <= 0;
 
 COMMIT;
+

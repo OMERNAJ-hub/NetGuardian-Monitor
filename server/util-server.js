@@ -206,7 +206,7 @@ exports.pingAsync = function (
  * @param {object} options Kafka client options. Contains ssl, clientId,
  * allowAutoTopicCreation and interval (interval defaults to 20,
  * allowAutoTopicCreation defaults to false, clientId defaults to
- * "Uptime-Kuma" and ssl defaults to false)
+ * "netguardian" and ssl defaults to false)
  * @param {SASLOptions} saslOptions Options for kafka client
  * Authentication (SASL) (defaults to {})
  * @returns {Promise<string>} Status message
@@ -217,7 +217,7 @@ exports.kafkaProducerAsync = function (brokers, topic, message, options = {}, sa
             interval = 20,
             allowAutoTopicCreation = false,
             ssl = false,
-            clientId = "Uptime-Kuma",
+            clientId = "netguardian",
             connectionTimeout = 1,
         } = options;
 
@@ -1064,3 +1064,4 @@ function createURL(isHTTPS, hostname, port = 80) {
     // Prefer origin if available, it doesn't contain the trailing slash
     return url.origin || url.toString();
 }
+

@@ -10,3 +10,4 @@ exports.down = function (knex) {
         table.dropColumn("retry_only_on_status_code_failure");
     });
 };
+

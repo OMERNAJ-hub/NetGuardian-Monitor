@@ -9,7 +9,7 @@ permissions: {}
 jobs:
   stale:
     # Only run on the original repository, not on forks
-    if: github.repository == 'louislam/uptime-kuma'
+    if: github.repository == 'louislam/netguardian'
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -45,3 +45,4 @@ jobs:
           days-before-pr-close: -1
           any-of-issue-labels: "cannot-reproduce"
           operations-per-run: 200
+

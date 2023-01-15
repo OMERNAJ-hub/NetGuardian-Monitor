@@ -11,3 +11,4 @@ while (true) {
     echo "Pushed!\n";
     sleep(interval);
 }
+

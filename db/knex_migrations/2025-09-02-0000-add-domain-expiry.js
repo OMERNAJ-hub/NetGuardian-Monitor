@@ -21,3 +21,4 @@ exports.down = function (knex) {
         })
         .dropTable("domain_expiry");
 };
+

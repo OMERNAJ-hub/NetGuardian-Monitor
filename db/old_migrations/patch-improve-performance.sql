@@ -8,3 +8,4 @@ CREATE INDEX monitor_time_index ON heartbeat (monitor_id, time);
 CREATE INDEX monitor_important_time_index ON heartbeat (monitor_id, important,time);
 
 COMMIT;
+

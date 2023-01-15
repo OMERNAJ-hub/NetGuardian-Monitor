@@ -56,3 +56,4 @@ class YZJ extends NotificationProvider {
 }
 
 module.exports = YZJ;
+

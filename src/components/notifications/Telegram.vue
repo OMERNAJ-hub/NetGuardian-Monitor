@@ -145,7 +145,7 @@ export default {
         telegramTemplatedTextareaPlaceholder() {
             return this.$t("Example:", [
                 `
-Uptime Kuma Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
+NetGuardian Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
 
 {{ msg }}
                 `,
@@ -210,3 +210,4 @@ textarea {
     min-height: 150px;
 }
 </style>
+

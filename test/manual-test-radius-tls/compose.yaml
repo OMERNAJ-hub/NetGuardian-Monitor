@@ -13,3 +13,4 @@ services:
       --tls-cert-file /certs/redis.crt
       --tls-key-file /certs/redis.key
       --tls-auth-clients no
+

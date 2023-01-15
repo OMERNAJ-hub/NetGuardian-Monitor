@@ -48,3 +48,4 @@ module.exports = {
     localWebSocketURL,
     demoMode,
 };
+

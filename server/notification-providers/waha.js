@@ -38,3 +38,4 @@ class WAHA extends NotificationProvider {
 }
 
 module.exports = WAHA;
+

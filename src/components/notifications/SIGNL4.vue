@@ -10,7 +10,8 @@
             required
         />
         <i18n-t tag="div" keypath="signl4Docs" class="form-text">
-            <a href="https://docs.signl4.com/integrations/uptime-kuma/uptime-kuma.html" target="_blank">SIGNL4 Docs</a>
+            <a href="https://docs.signl4.com/integrations/netguardian/netguardian.html" target="_blank">SIGNL4 Docs</a>
         </i18n-t>
     </div>
 </template>
+

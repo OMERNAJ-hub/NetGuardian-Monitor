@@ -17,3 +17,4 @@ ALTER TABLE monitor
     ADD oauth_auth_method TEXT default null;
 
 COMMIT;
+

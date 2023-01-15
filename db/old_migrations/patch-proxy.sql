@@ -21,3 +21,4 @@ CREATE INDEX proxy_id ON monitor (proxy_id);
 CREATE INDEX proxy_user_id ON proxy (user_id);
 
 COMMIT;
+

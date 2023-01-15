@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD dns_last_result VARCHAR(255);
 
 COMMIT;
+

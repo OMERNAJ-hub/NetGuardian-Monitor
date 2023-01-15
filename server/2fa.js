@@ -12,3 +12,4 @@ class TwoFA {
 }
 
 module.exports = TwoFA;
+

@@ -14,3 +14,4 @@ ALTER TABLE monitor
 	ADD mqtt_password VARCHAR(255);
 
 COMMIT;
+

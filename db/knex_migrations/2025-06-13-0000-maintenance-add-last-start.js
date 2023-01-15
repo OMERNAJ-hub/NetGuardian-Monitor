@@ -31,3 +31,4 @@ exports.down = function (knex) {
         table.dropColumn("last_start_date");
     });
 };
+

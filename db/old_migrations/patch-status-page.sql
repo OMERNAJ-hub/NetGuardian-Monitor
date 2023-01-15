@@ -29,3 +29,4 @@ ALTER TABLE incident ADD status_page_id INTEGER;
 ALTER TABLE [group] ADD status_page_id INTEGER;
 
 COMMIT;
+

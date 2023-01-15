@@ -44,3 +44,4 @@ class Twilio extends NotificationProvider {
 }
 
 module.exports = Twilio;
+

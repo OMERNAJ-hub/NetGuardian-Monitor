@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD description TEXT default null;
 
 COMMIT;
+

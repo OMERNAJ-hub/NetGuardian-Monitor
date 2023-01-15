@@ -35,3 +35,4 @@ test.describe("Example Spec", () => {
         await screenshot(testInfo, page);
     });
 });
+

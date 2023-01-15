@@ -16,3 +16,4 @@ CREATE INDEX [good_index] ON [notification_sent_history] (
 );
 
 COMMIT;
+

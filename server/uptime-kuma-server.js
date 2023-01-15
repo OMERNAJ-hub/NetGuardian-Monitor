@@ -76,7 +76,7 @@ class UptimeKumaServer {
      *
      */
     constructor() {
-        // Set axios default user-agent to Uptime-Kuma/version
+        // Set axios default user-agent to netguardian/version
         axios.defaults.headers.common["User-Agent"] = this.getUserAgent();
 
         // Set default axios timeout to 5 minutes instead of infinity
@@ -538,7 +538,7 @@ class UptimeKumaServer {
      * @returns {string} User-Agent
      */
     getUserAgent() {
-        return "Uptime-Kuma/" + require("../package.json").version;
+        return "netguardian/" + require("../package.json").version;
     }
 
     /**
@@ -591,3 +591,4 @@ const { MysqlMonitorType } = require("./monitor-types/mysql");
 const { OracleDbMonitorType } = require("./monitor-types/oracledb");
 const { NTPMonitorType } = require("./monitor-types/ntp");
 const Monitor = require("./model/monitor");
+

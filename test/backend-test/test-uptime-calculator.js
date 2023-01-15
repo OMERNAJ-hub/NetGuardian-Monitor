@@ -498,3 +498,4 @@ function memoryUsage() {
         external: `${formatMemoryUsage(memoryData.external)} -> V8 external memory`,
     };
 }
+

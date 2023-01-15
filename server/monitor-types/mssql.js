@@ -133,3 +133,4 @@ class MssqlMonitorType extends MonitorType {
 module.exports = {
     MssqlMonitorType,
 };
+

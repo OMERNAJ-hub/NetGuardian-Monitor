@@ -16,3 +16,4 @@ exports.down = async function (knex) {
         table.enu("analytics_type", oldValues).nullable().defaultTo(null).alter();
     });
 };
+

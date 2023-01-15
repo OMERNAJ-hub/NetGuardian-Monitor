@@ -1,4 +1,4 @@
-console.log("== Uptime Kuma Remove 2FA Tool ==");
+console.log("== NetGuardian Remove 2FA Tool ==");
 console.log("Loading the database");
 
 const Database = require("../server/database");
@@ -62,3 +62,4 @@ if (!process.env.TEST_BACKEND) {
 module.exports = {
     main,
 };
+

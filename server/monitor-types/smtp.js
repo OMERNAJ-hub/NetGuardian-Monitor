@@ -33,3 +33,4 @@ class SMTPMonitorType extends MonitorType {
 module.exports = {
     SMTPMonitorType,
 };
+

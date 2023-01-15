@@ -28,3 +28,4 @@ exports.up = async function (knex) {
 exports.down = async function () {
     // Removal of LINE Notify configs is not reversible.
 };
+

@@ -23,3 +23,4 @@ for (let jsonFile of jsonFileList) {
 
     fs.writeFileSync(jsonPath, JSON.stringify(langData, null, 4) + "\n");
 }
+

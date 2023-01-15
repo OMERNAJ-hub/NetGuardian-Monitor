@@ -19,3 +19,4 @@ exports.down = function (knex) {
         table.dropColumn("ping_per_request_timeout");
     });
 };
+

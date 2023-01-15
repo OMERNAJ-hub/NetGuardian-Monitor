@@ -12,3 +12,4 @@ exports.down = function (knex) {
         table.boolean("ip_family").defaultTo(null).alter();
     });
 };
+

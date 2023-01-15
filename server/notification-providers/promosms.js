@@ -56,3 +56,4 @@ class PromoSMS extends NotificationProvider {
 }
 
 module.exports = PromoSMS;
+

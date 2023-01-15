@@ -24,3 +24,4 @@ exports.down = function (knex) {
         table.dropColumn("remote_browser");
     });
 };
+

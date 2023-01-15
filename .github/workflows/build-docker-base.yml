@@ -46,3 +46,4 @@ jobs:
 
       - name: Build and push base2 image
         run: npm run build-docker-base
+

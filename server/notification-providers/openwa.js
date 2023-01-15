@@ -58,3 +58,4 @@ class OpenWa extends NotificationProvider {
 }
 
 module.exports = OpenWa;
+

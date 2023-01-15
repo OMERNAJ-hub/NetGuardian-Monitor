@@ -630,3 +630,4 @@ class GlobalpingMonitorType extends MonitorType {
 module.exports = {
     GlobalpingMonitorType,
 };
+

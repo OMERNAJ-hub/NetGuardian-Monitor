@@ -110,3 +110,4 @@ class DingDing extends NotificationProvider {
 }
 
 module.exports = DingDing;
+

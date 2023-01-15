@@ -25,3 +25,4 @@ exports.down = function (knex) {
             table.integer("ping").alter();
         });
 };
+

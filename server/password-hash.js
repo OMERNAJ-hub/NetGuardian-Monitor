@@ -42,3 +42,4 @@ function isSHA1(hash) {
 exports.needRehash = function (hash) {
     return isSHA1(hash);
 };
+

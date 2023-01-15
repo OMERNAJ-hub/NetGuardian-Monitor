@@ -22,3 +22,4 @@ if (newVersion) {
         fs.writeFileSync("README.md", fs.readFileSync("README.md", "utf8").replaceAll(oldVersion, newVersion));
     }
 }
+

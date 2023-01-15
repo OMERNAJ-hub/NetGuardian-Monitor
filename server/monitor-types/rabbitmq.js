@@ -112,3 +112,4 @@ class RabbitMqMonitorType extends MonitorType {
 module.exports = {
     RabbitMqMonitorType,
 };
+

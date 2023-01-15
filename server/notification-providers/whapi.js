@@ -39,3 +39,4 @@ class Whapi extends NotificationProvider {
 }
 
 module.exports = Whapi;
+

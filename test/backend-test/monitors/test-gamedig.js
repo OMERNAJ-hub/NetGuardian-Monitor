@@ -236,3 +236,4 @@ describe("GameDig Monitor", () => {
         await assert.rejects(gamedigMonitor.check(monitor, heartbeat, {}), /Error/);
     });
 });
+

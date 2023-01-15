@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   check-pr-description:
-    if: github.repository == 'louislam/uptime-kuma'
+    if: github.repository == 'louislam/netguardian'
     name: Check PR description and close if missing template phrase
     runs-on: ubuntu-latest
     permissions:
@@ -57,3 +57,4 @@ jobs:
               const commentBody = `Thanks for the PR! If anyone would like to help with testing, run: \`npx kuma-pr ${pr.user.login}:${pr.head.ref}\` (requires Node.js and Docker)`;
               await github.rest.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
             }
+

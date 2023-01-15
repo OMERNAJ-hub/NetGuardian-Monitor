@@ -11,7 +11,7 @@ on:
 jobs:
   analyze:
     # Only run scheduled analysis on the original repository, not on forks
-    if: github.event_name != 'schedule' || github.repository == 'louislam/uptime-kuma'
+    if: github.event_name != 'schedule' || github.repository == 'louislam/netguardian'
     name: Analyze
     runs-on: ubuntu-latest
     timeout-minutes: 360
@@ -45,7 +45,7 @@ jobs:
           category: "/language:${{matrix.language}}"
   zizmor:
     # Only run scheduled analysis on the original repository, not on forks
-    if: github.event_name != 'schedule' || github.repository == 'louislam/uptime-kuma'
+    if: github.event_name != 'schedule' || github.repository == 'louislam/netguardian'
     runs-on: ubuntu-latest
     permissions:
       security-events: write
@@ -57,3 +57,4 @@ jobs:
         with: { persist-credentials: false }
       - name: Run zizmor
         uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
+

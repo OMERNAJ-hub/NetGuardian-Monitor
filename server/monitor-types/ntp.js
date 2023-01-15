@@ -200,3 +200,4 @@ class NTPMonitorType extends MonitorType {
 module.exports = {
     NTPMonitorType,
 };
+

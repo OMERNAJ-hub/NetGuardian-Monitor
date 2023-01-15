@@ -39,3 +39,4 @@ class Telnyx extends NotificationProvider {
 }
 
 module.exports = Telnyx;
+

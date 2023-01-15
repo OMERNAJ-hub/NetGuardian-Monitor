@@ -1,5 +1,5 @@
 /**
- * Prettier Configuration for Uptime Kuma
+ * Prettier Configuration for NetGuardian
  *
  * Usage:
  *   npm run fmt              - Format all files (auto-runs in CI via autofix workflow)
@@ -63,3 +63,4 @@ module.exports = {
         },
     ],
 };
+

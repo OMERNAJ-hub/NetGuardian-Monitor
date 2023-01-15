@@ -33,3 +33,4 @@ class Signal extends NotificationProvider {
 }
 
 module.exports = Signal;
+

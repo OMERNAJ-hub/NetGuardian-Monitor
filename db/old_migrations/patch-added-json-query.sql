@@ -8,3 +8,4 @@ ALTER TABLE monitor
 	ADD expected_value VARCHAR(255);
 
 COMMIT;
+

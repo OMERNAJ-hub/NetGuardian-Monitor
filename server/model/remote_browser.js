@@ -15,3 +15,4 @@ class RemoteBrowser extends BeanModel {
 }
 
 module.exports = RemoteBrowser;
+

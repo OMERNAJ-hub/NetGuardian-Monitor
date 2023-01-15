@@ -16,3 +16,4 @@ BEGIN TRANSACTION;
         SET auth_method = 'basic'
         WHERE basic_auth_user is not null;
 COMMIT;
+

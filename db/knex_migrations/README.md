@@ -6,7 +6,7 @@ https://knexjs.org/guide/migrations.html#knexfile-in-other-languages
 
 - All tables must have a primary key named `id`
 - Filename format: `YYYY-MM-DD-HHMM-patch-name.js`
-- Avoid native SQL syntax, use knex methods, because Uptime Kuma supports SQLite and MariaDB.
+- Avoid native SQL syntax, use knex methods, because NetGuardian supports SQLite and MariaDB.
 
 ## Template
 
@@ -49,3 +49,4 @@ exports.down = function (knex) {
 ```
 
 https://knexjs.org/guide/migrations.html#transactions-in-migrations
+

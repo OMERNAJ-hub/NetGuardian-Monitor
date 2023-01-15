@@ -13,3 +13,4 @@ exports.down = function (knex) {
         table.dropColumn("rabbitmq_password");
     });
 };
+

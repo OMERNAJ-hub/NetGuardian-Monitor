@@ -61,7 +61,7 @@ if (!dryRun) {
         repoNames,
         ["2-slim-rootless", ver(version, "slim-rootless")],
         "rootless",
-        "BASE_IMAGE=louislam/uptime-kuma:base2-slim"
+        "BASE_IMAGE=louislam/netguardian:base2-slim"
     );
 
     // Build full image (rootless)
@@ -72,7 +72,7 @@ if (!dryRun) {
         repoNames,
         ["next-slim", "2-slim", ver(version, "slim")],
         "release",
-        "BASE_IMAGE=louislam/uptime-kuma:base2-slim"
+        "BASE_IMAGE=louislam/netguardian:base2-slim"
     );
 
     // Build full image
@@ -89,3 +89,4 @@ await import("./finish.mjs");
 
 // Removed update wiki to keep it simple
 // Do this in the wiki repo instead
+

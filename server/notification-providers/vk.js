@@ -42,3 +42,4 @@ class VK extends NotificationProvider {
 }
 
 module.exports = VK;
+

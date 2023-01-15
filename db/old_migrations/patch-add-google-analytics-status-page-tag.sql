@@ -5,3 +5,4 @@ ALTER TABLE status_page
     ADD google_analytics_tag_id VARCHAR;
 
 COMMIT;
+

@@ -10,3 +10,4 @@ if (version < 22) {
 } else {
     childProcess.execSync("npm run test-backend-22", { stdio: "inherit" });
 }
+

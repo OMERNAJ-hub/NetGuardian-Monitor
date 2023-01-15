@@ -12,3 +12,4 @@ exports.down = function (knex) {
         table.dropColumn("ws_subprotocol");
     });
 };
+

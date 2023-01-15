@@ -5,3 +5,4 @@ ALTER TABLE status_page
     ADD show_certificate_expiry BOOLEAN default 0 NOT NULL;
 
 COMMIT;
+

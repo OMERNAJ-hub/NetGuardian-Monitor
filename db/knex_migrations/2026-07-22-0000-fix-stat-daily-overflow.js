@@ -11,3 +11,4 @@ exports.down = function (knex) {
         table.smallint("down").notNullable().alter();
     });
 };
+

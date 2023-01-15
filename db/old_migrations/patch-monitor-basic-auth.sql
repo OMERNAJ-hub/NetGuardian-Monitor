@@ -8,3 +8,4 @@ ALTER TABLE monitor
     ADD basic_auth_pass TEXT default null;
 
 COMMIT;
+

@@ -32,3 +32,4 @@ class Bale extends NotificationProvider {
 }
 
 module.exports = Bale;
+

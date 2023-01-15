@@ -41,3 +41,4 @@ class Gorush extends NotificationProvider {
 }
 
 module.exports = Gorush;
+

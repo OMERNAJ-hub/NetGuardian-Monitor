@@ -57,3 +57,4 @@ if (process.env.NODE_ENV === "development") {
     console.log("Dev Only: window.app is the vue instance");
     window.app = app._instance;
 }
+

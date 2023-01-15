@@ -113,3 +113,4 @@ class Nostr extends NotificationProvider {
 }
 
 module.exports = Nostr;
+

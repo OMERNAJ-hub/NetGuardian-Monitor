@@ -74,7 +74,7 @@ class NotificationProvider {
      */
     async renderTemplate(template, msg, monitorJSON, heartbeatJSON) {
         const engine = new Liquid({
-            root: "./no-such-directory-uptime-kuma",
+            root: "./no-such-directory-netguardian",
             relativeReference: false,
             dynamicPartials: false,
         });
@@ -197,3 +197,4 @@ class NotificationProvider {
 }
 
 module.exports = NotificationProvider;
+

@@ -41,3 +41,4 @@ exports.down = function (knex) {
             table.float("ping_max").notNullable().defaultTo(0).alter();
         });
 };
+

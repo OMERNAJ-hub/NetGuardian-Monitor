@@ -46,3 +46,4 @@ class VKTeams extends NotificationProvider {
 }
 
 module.exports = VKTeams;
+

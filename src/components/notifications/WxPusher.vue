@@ -12,7 +12,7 @@
             <i18n-t tag="p" keypath="wxPusherSptDescription">
                 <template #download>
                     <a
-                        href="https://wxpusher.zjiecode.com/download/?utm_source=uptime-kuma"
+                        href="https://wxpusher.zjiecode.com/download/?utm_source=netguardian"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -21,7 +21,7 @@
                 </template>
                 <template #docs>
                     <a
-                        href="https://wxpusher.zjiecode.com/docs/?utm_source=uptime-kuma#/?id=spt"
+                        href="https://wxpusher.zjiecode.com/docs/?utm_source=netguardian#/?id=spt"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -46,3 +46,4 @@ export default {
     },
 };
 </script>
+

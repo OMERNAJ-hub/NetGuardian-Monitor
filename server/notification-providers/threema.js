@@ -76,3 +76,4 @@ class Threema extends NotificationProvider {
 }
 
 module.exports = Threema;
+

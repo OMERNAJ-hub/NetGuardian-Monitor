@@ -45,3 +45,4 @@ function getMatomoAnalyticsScript(matomoUrl, siteId) {
 module.exports = {
     getMatomoAnalyticsScript,
 };
+

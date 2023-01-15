@@ -62,3 +62,4 @@ class Pushover extends NotificationProvider {
 }
 
 module.exports = Pushover;
+

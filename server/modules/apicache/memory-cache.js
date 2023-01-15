@@ -85,3 +85,4 @@ MemoryCache.prototype.clear = function () {
 };
 
 module.exports = MemoryCache;
+

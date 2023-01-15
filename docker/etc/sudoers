@@ -29,3 +29,4 @@ root    ALL=(ALL:ALL) ALL
 # Allow `node` to control service (mainly for nscd)
 node ALL=(root) NOPASSWD: /usr/sbin/nscdservice
 node ALL=(root) NOPASSWD: /usr/sbin/service
+

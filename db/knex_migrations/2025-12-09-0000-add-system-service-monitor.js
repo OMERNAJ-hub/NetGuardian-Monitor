@@ -17,3 +17,4 @@ exports.down = async (knex) => {
         table.dropColumn("system_service_name");
     });
 };
+

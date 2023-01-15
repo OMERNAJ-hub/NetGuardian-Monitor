@@ -20,3 +20,4 @@ RUN apt update && \
     apt --yes --no-install-recommends install nodejs && \
     node ./extra/build-healthcheck.js $TARGETPLATFORM && \
     apt --yes remove nodejs
+

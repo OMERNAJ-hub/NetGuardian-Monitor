@@ -12,3 +12,4 @@ exports.up = function (knex) {
 exports.down = function (knex) {
     // No rollback needed - keeping VARCHAR(255) is the correct state
 };
+

@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD push_token VARCHAR(20) DEFAULT NULL;
 
 COMMIT;
+

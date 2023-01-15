@@ -8,3 +8,4 @@ CREATE TABLE monitor_tls_info (
 );
 
 COMMIT;
+

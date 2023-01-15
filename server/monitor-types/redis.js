@@ -58,3 +58,4 @@ class RedisMonitorType extends MonitorType {
 module.exports = {
     RedisMonitorType,
 };
+

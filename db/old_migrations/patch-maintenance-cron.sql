@@ -9,3 +9,4 @@ ALTER TABLE maintenance ADD timezone VARCHAR(255);
 ALTER TABLE maintenance ADD duration INTEGER;
 
 COMMIT;
+

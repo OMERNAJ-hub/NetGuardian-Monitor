@@ -106,3 +106,4 @@ library.add(
 );
 
 export { FontAwesomeIcon };
+

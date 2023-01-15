@@ -52,3 +52,4 @@ class BearSMS extends NotificationProvider {
 }
 
 module.exports = BearSMS;
+

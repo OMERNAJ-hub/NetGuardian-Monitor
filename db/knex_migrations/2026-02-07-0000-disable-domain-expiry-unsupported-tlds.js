@@ -91,3 +91,4 @@ exports.down = async function (knex) {
         table.boolean("domain_expiry_notification").defaultTo(1).alter();
     });
 };
+

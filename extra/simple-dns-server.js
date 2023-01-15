@@ -145,3 +145,4 @@ function type(code) {
         }
     }
 }
+

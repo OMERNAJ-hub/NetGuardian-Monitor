@@ -69,11 +69,12 @@ export default {
     },
     mounted() {
         if (typeof this.$parent.notification.brevoSubject === "undefined") {
-            this.$parent.notification.brevoSubject = "Notification from Your Uptime Kuma";
+            this.$parent.notification.brevoSubject = "Notification from Your NetGuardian";
         }
         if (typeof this.$parent.notification.brevoFromName === "undefined") {
-            this.$parent.notification.brevoFromName = "Uptime Kuma";
+            this.$parent.notification.brevoFromName = "NetGuardian";
         }
     },
 };
 </script>
+

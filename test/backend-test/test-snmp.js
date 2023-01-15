@@ -126,3 +126,4 @@ describe("SNMPMonitorType", () => {
         snmp.createSession = originalCreateSession;
     });
 });
+

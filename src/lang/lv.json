@@ -1,7 +1,7 @@
 {
     "languageName": "Latviešu",
     "setupDatabaseChooseDatabase": "Kuru datubāzi izmantosiet?",
-    "setupDatabaseEmbeddedMariaDB": "Jums nav nekas jādara. Docker imidžā ir iebūvēta un automātiski konfigurēta MariaDB datubāze. Uptime Kuma pieslēgsies šai datubāzei izmantojot unix soketu.",
+    "setupDatabaseEmbeddedMariaDB": "Jums nav nekas jādara. Docker imidžā ir iebūvēta un automātiski konfigurēta MariaDB datubāze. NetGuardian pieslēgsies šai datubāzei izmantojot unix soketu.",
     "setupDatabaseSQLite": "Vienkāršs datu bāzes fails, iesakāms maza izmēra risinājumiem. Pirms versijas v2.0.0 SQLite bija noklusējuma datubāze.",
     "setupDatabaseMariaDB": "Pieslēgties ārējai MariaDB datubāzei. Jums būs jākonfigurē datubāzes pieslēgšanās informācija.",
     "Name": "Nosaukums",
@@ -99,3 +99,4 @@
     "retriesDescription": "Maksimālais atkārtoto mēģinājumu skaits, pirms pakalpojums tiek atzīmēts kā nedarbojošs un tiek nosūtīts paziņojums",
     "Only retry if status code check fails": "Atkārtot mēģinājumu tikai tad, ja statusa koda pārbaude neizdodas"
 }
+

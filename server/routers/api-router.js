@@ -12,7 +12,7 @@ const Monitor = require("../model/monitor");
 const dayjs = require("dayjs");
 const { UP, MAINTENANCE, DOWN, PENDING, flipStatus, log, badgeConstants } = require("../../src/util");
 const StatusPage = require("../model/status_page");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const { makeBadge } = require("badge-maker");
 const { Prometheus } = require("../prometheus");
 const Database = require("../database");
@@ -637,3 +637,4 @@ async function isMonitorPublic(monitorID) {
 }
 
 module.exports = router;
+

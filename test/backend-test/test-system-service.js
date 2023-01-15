@@ -105,3 +105,4 @@ describe("SystemServiceMonitorType", { skip: shouldSkip() }, () => {
         await assert.rejects(monitorType.check(monitor, heartbeat), /not supported/);
     });
 });
+

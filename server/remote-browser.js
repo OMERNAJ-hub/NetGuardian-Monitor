@@ -69,3 +69,4 @@ class RemoteBrowser {
 module.exports = {
     RemoteBrowser,
 };
+

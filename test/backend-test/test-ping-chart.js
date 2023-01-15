@@ -48,3 +48,4 @@ describe("PingChart pushDatapoint filtering", () => {
         assert.strictEqual(result, 42);
     });
 });
+

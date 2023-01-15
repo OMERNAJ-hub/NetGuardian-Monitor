@@ -58,3 +58,4 @@ class GoogleSheets extends NotificationProvider {
 }
 
 module.exports = GoogleSheets;
+

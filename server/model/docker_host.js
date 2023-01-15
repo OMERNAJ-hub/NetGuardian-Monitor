@@ -17,3 +17,4 @@ class DockerHost extends BeanModel {
 }
 
 module.exports = DockerHost;
+

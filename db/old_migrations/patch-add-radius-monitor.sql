@@ -17,3 +17,4 @@ ALTER TABLE monitor
     ADD radius_secret VARCHAR(255);
 
 COMMIT;
+

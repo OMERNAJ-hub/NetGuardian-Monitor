@@ -55,3 +55,4 @@ let result = childProcess.spawnSync("curl", [ downloadURL, "--output", "apprise.
 console.log(result.stdout?.toString());
 console.error(result.stderr?.toString());
 process.exit(result.status !== null ? result.status : 1);
+

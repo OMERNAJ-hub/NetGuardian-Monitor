@@ -132,3 +132,4 @@ class SteamMonitorType extends MonitorType {
 module.exports = {
     SteamMonitorType,
 };
+

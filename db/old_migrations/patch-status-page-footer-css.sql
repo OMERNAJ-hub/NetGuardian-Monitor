@@ -9,3 +9,4 @@ ALTER TABLE status_page
     ADD show_powered_by BOOLEAN NOT NULL DEFAULT 1;
 
 COMMIT;
+

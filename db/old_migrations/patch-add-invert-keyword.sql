@@ -5,3 +5,4 @@ ALTER TABLE monitor
     ADD invert_keyword BOOLEAN default 0 not null;
 
 COMMIT;
+

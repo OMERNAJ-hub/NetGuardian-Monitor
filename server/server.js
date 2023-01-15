@@ -1,9 +1,9 @@
 /*
- * Uptime Kuma Server
+ * NetGuardian Server
  * node "server/server.js"
  * DO NOT require("./server") in other modules, it likely creates circular dependency!
  */
-console.log("Welcome to Uptime Kuma");
+console.log("Welcome to NetGuardian");
 
 // As the log function need to use dayjs, it should be very top
 const dayjs = require("dayjs");
@@ -28,7 +28,7 @@ const requiredNodeVersionsComma = requiredNodeVersions
     .map((version) => version.trim())
     .join(", ");
 
-// Exit Uptime Kuma immediately if the Node.js version is banned
+// Exit NetGuardian immediately if the Node.js version is banned
 if (semver.satisfies(nodeVersion, bannedNodeVersions)) {
     console.error(
         "\x1b[31m%s\x1b[0m",
@@ -49,7 +49,7 @@ const args = require("args-parser")(process.argv);
 const { sleep, log, getRandomInt, genSecret, isDev } = require("../src/util");
 const config = require("./config");
 
-process.title = "uptime-kuma";
+process.title = "netguardian";
 
 log.debug("server", "Arguments");
 log.debug("server", args);
@@ -88,7 +88,7 @@ if (isDev || process.env.UPTIME_KUMA_DEBUG_INSPECTOR === "1") {
 }
 
 const checkVersion = require("./check-version");
-log.info("server", "Uptime Kuma Version:", checkVersion.version);
+log.info("server", "NetGuardian Version:", checkVersion.version);
 
 log.info("server", "Loading modules");
 
@@ -110,7 +110,7 @@ log.debug("server", "Importing 2FA Modules");
 const notp = require("notp");
 const base32 = require("thirty-two");
 
-const { UptimeKumaServer } = require("./uptime-kuma-server");
+const { UptimeKumaServer } = require("./netguardian-server");
 const server = UptimeKumaServer.getInstance();
 const io = (module.exports.io = server.io);
 const app = server.app;
@@ -365,7 +365,7 @@ let needSetup = false;
     app.use("/upload", express.static(Database.uploadDir));
 
     app.get("/.well-known/change-password", async (_, response) => {
-        response.redirect("https://github.com/louislam/uptime-kuma/wiki/Reset-Password-via-CLI");
+        response.redirect("https://github.com/louislam/netguardian/wiki/Reset-Password-via-CLI");
     });
 
     // API Router
@@ -558,7 +558,7 @@ let needSetup = false;
 
                     // Google authenticator doesn't like equal signs
                     // The fix is found at https://github.com/guyht/notp
-                    // Related issue: https://github.com/louislam/uptime-kuma/issues/486
+                    // Related issue: https://github.com/louislam/netguardian/issues/486
                     encodedSecret = encodedSecret.toString().replace(/=/g, "");
 
                     let uri = `otpauth://totp/Uptime%20Kuma:${user.username}?secret=${encodedSecret}`;
@@ -710,7 +710,7 @@ let needSetup = false;
 
                 if ((await R.knex("user").count("id as count").first()).count !== 0) {
                     throw new Error(
-                        "Uptime Kuma has been initialized. If you want to run setup again, please delete the database."
+                        "NetGuardian has been initialized. If you want to run setup again, please delete the database."
                     );
                 }
 
@@ -1883,7 +1883,7 @@ async function initDatabase(testMode = false) {
         log.debug("server", "Load JWT secret from database.");
     }
 
-    // If there is no record in user table, it is a new Uptime Kuma instance, need to setup
+    // If there is no record in user table, it is a new NetGuardian instance, need to setup
     if ((await R.knex("user").count("id as count").first()).count === 0) {
         log.info("server", "No user, need setup");
         needSetup = true;
@@ -2016,7 +2016,8 @@ gracefulShutdown(server.httpServer, {
 let unexpectedErrorHandler = (error, promise) => {
     console.trace(error);
     UptimeKumaServer.errorLog(error, false);
-    console.error("If you keep encountering errors, please report to https://github.com/louislam/uptime-kuma/issues");
+    console.error("If you keep encountering errors, please report to https://github.com/louislam/netguardian/issues");
 };
 process.addListener("unhandledRejection", unexpectedErrorHandler);
 process.addListener("uncaughtException", unexpectedErrorHandler);
+

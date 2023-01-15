@@ -232,3 +232,4 @@ describe("RabbitMQ Multi-Node (Mocked)", () => {
         assert.strictEqual(checkedNodes[3], "http://node4:15672");
     });
 });
+

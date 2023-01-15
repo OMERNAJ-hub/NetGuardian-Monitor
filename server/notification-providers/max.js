@@ -45,3 +45,4 @@ class Max extends NotificationProvider {
 }
 
 module.exports = Max;
+

@@ -20,7 +20,7 @@ class Gotify extends NotificationProvider {
                 {
                     message: msg,
                     priority: notification.gotifyPriority || 8,
-                    title: "Uptime-Kuma",
+                    title: "netguardian",
                 },
                 config
             );
@@ -33,3 +33,4 @@ class Gotify extends NotificationProvider {
 }
 
 module.exports = Gotify;
+

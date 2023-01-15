@@ -5,3 +5,4 @@ ALTER TABLE monitor_group
     ADD send_url BOOLEAN DEFAULT 0 NOT NULL;
 
 COMMIT;
+

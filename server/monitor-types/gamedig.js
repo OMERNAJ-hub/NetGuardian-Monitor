@@ -30,3 +30,4 @@ class GameDigMonitorType extends MonitorType {
 module.exports = {
     GameDigMonitorType,
 };
+

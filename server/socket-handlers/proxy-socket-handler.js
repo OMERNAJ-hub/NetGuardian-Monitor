@@ -1,7 +1,7 @@
 const { checkLogin } = require("../util-server");
 const { Proxy } = require("../proxy");
 const { sendProxyList } = require("../client");
-const { UptimeKumaServer } = require("../uptime-kuma-server");
+const { UptimeKumaServer } = require("../netguardian-server");
 const server = UptimeKumaServer.getInstance();
 
 /**
@@ -57,3 +57,4 @@ module.exports.proxySocketHandler = (socket) => {
         }
     });
 };
+

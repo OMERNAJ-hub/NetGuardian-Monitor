@@ -32,7 +32,7 @@ export function getRepoNames() {
         // Split by comma
         return process.env.RELEASE_REPO_NAMES.split(",").map((name) => name.trim());
     }
-    return ["louislam/uptime-kuma", "ghcr.io/louislam/uptime-kuma"];
+    return ["louislam/netguardian", "ghcr.io/louislam/netguardian"];
 }
 
 /**
@@ -99,7 +99,7 @@ export function buildImage(
  */
 export async function checkTagExists(repoNames, version) {
     // Skip if the tag is not on Docker Hub
-    // louislam/uptime-kuma
+    // louislam/netguardian
     let dockerHubRepoNames = repoNames.filter((name) => {
         return name.split("/").length === 2;
     });
@@ -192,7 +192,7 @@ export function ver(version, identifier) {
 
 /**
  * Upload artifacts to GitHub
- * docker buildx build -f docker/dockerfile --platform linux/amd64 -t louislam/uptime-kuma:upload-artifact --build-arg VERSION --build-arg GITHUB_TOKEN --target upload-artifact . --progress plain
+ * docker buildx build -f docker/dockerfile --platform linux/amd64 -t louislam/netguardian:upload-artifact --build-arg VERSION --build-arg GITHUB_TOKEN --target upload-artifact . --progress plain
  * @param {string} version Version
  * @param {string} githubToken GitHub token
  * @returns {void}
@@ -207,7 +207,7 @@ export function uploadArtifacts(version, githubToken) {
         "--platform",
         "linux/amd64",
         "-t",
-        "louislam/uptime-kuma:upload-artifact",
+        "louislam/netguardian:upload-artifact",
         "--build-arg",
         `VERSION=${version}`,
         "--build-arg",
@@ -311,8 +311,8 @@ export async function createReleasePR(version, previousVersion, dryRun, branchNa
 
     // Build the artifact link - use direct run link if available, otherwise link to workflow file
     const artifactLink = githubRunId
-        ? `https://github.com/louislam/uptime-kuma/actions/runs/${githubRunId}/workflow`
-        : `https://github.com/louislam/uptime-kuma/actions/workflows/beta-release.yml`;
+        ? `https://github.com/louislam/netguardian/actions/runs/${githubRunId}/workflow`
+        : `https://github.com/louislam/netguardian/actions/workflows/beta-release.yml`;
 
     const tmpDir = "./tmp";
     if (!fs.existsSync(tmpDir)) {
@@ -358,7 +358,7 @@ The \`dist.tar.gz\` archive will be available as an artifact in the [workflow ru
     const prUrl = result.stdout.trim();
     console.log(prUrl);
 
-    // Extract PR number from URL (e.g., https://github.com/louislam/uptime-kuma/pull/1234)
+    // Extract PR number from URL (e.g., https://github.com/louislam/netguardian/pull/1234)
     const prNumberMatch = prUrl.match(/\/pull\/(\d+)/);
     const prNumber = prNumberMatch ? parseInt(prNumberMatch[1], 10) : null;
 
@@ -418,6 +418,7 @@ ${changelog}`;
 
     console.log(`Release ${version} is ready (draft).`);
     console.log("Next steps:");
-    console.log(`  1. Review the draft release: https://github.com/louislam/uptime-kuma/releases/tag/${version}`);
+    console.log(`  1. Review the draft release: https://github.com/louislam/netguardian/releases/tag/${version}`);
     console.log(`  2. Edit if needed and publish.`);
 }
+

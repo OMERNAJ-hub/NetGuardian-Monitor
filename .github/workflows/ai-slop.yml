@@ -12,7 +12,7 @@ permissions: {}
 
 jobs:
   handle-ai-slop:
-    if: github.event.label.name == 'ai-slop' && github.repository == 'louislam/uptime-kuma'
+    if: github.event.label.name == 'ai-slop' && github.repository == 'louislam/netguardian'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -58,3 +58,4 @@ jobs:
             for (const body of comments) {
                 await github.rest.issues.createComment({ ...repo, issue_number: issueNumber, body });
             }
+

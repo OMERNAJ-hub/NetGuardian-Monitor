@@ -10,3 +10,4 @@ BEGIN TRANSACTION;
 UPDATE monitor SET http_body_encoding = 'json' WHERE (type = 'http' or type = 'keyword') AND http_body_encoding IS NULL;
 
 COMMIT;
+

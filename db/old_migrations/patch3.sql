@@ -35,3 +35,4 @@ create index user_id on monitor (user_id);
 COMMIT;
 
 PRAGMA foreign_keys=on;
+

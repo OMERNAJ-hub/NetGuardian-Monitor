@@ -342,3 +342,4 @@ async function applyNotificationEveryMonitor(notificationID, userID) {
 module.exports = {
     Notification,
 };
+

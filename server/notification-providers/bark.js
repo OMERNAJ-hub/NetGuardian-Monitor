@@ -12,7 +12,7 @@ const { default: axios } = require("axios");
 
 // bark is an APN bridge that sends notifications to Apple devices.
 
-const barkNotificationAvatar = "https://github.com/louislam/uptime-kuma/raw/master/public/icon.png";
+const barkNotificationAvatar = "https://github.com/louislam/netguardian/raw/master/public/icon.png";
 const successMessage = "Successes!";
 
 class Bark extends NotificationProvider {
@@ -52,7 +52,7 @@ class Bark extends NotificationProvider {
      * @returns {string} Additional URL parameters
      */
     additionalParameters(notification) {
-        // set icon to uptime kuma icon, 11kb should be fine
+        // set icon to NetGuardian icon, 11kb should be fine
         let params = "?icon=" + barkNotificationAvatar;
         // grouping all our notifications
         if (notification.barkGroup != null) {
@@ -126,3 +126,4 @@ class Bark extends NotificationProvider {
 }
 
 module.exports = Bark;
+

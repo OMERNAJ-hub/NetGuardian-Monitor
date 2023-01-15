@@ -50,3 +50,4 @@ class Matrix extends NotificationProvider {
 }
 
 module.exports = Matrix;
+

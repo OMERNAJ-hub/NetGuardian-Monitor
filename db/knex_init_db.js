@@ -609,3 +609,4 @@ ALTER TABLE monitor
 module.exports = {
     createTables,
 };
+

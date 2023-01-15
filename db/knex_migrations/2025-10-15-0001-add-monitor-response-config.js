@@ -13,3 +13,4 @@ exports.down = function (knex) {
         table.dropColumn("response_max_length");
     });
 };
+

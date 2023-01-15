@@ -55,3 +55,4 @@ class PushPlus extends NotificationProvider {
 }
 
 module.exports = PushPlus;
+

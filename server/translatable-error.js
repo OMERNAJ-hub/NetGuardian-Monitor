@@ -20,3 +20,4 @@ class TranslatableError extends Error {
     }
 }
 module.exports = TranslatableError;
+

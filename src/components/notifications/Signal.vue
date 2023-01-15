@@ -97,3 +97,4 @@ Signal Alert{% if monitorJSON %} - {{ monitorJSON['name'] }}{% endif %}
     },
 };
 </script>
+

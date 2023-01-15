@@ -36,3 +36,4 @@
         <p class="form-text">{{ $t("WeCom Mentioned Mobile List Description") }}</p>
     </div>
 </template>
+

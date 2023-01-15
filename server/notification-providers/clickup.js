@@ -45,3 +45,4 @@ class ClickUp extends NotificationProvider {
 }
 
 module.exports = ClickUp;
+

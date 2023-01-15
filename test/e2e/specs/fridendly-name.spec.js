@@ -81,3 +81,4 @@ test.describe("Friendly Name Tests", () => {
         await screenshot(testInfo, page);
     });
 });
+

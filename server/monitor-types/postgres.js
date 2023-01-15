@@ -81,3 +81,4 @@ class PostgresMonitorType extends MonitorType {
 module.exports = {
     PostgresMonitorType,
 };
+

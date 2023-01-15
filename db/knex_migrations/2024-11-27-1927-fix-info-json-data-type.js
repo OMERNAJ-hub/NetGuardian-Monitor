@@ -10,3 +10,4 @@ exports.down = function (knex) {
         table.text("info_json", "text").alter();
     });
 };
+
